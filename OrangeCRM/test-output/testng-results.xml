@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-06T20:58:55 IST" name="Suite123456" finished-at="2023-10-06T20:59:01 IST" duration-ms="5901">
+    <groups>
+      <group name="High Priority">
+        <method signature="VerifyAdminPage.toVerifySearchOnAdminPage_1101()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" name="toVerifySearchOnAdminPage_1101" class="tests.VerifyAdminPage"/>
+        <method signature="VerifyAdminPage.toVerifySearchOnAdminPage_1101()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" name="toVerifySearchOnAdminPage_1101" class="tests.VerifyAdminPage"/>
+      </group> <!-- High Priority -->
+    </groups>
+    <test started-at="2023-10-06T20:58:55 IST" name="ChromeTest" finished-at="2023-10-06T20:58:58 IST" duration-ms="2589">
+      <class name="tests.VerifyAdminPage">
+        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:55 IST" name="lauchBrowser" finished-at="2023-10-06T20:58:58 IST" duration-ms="2511" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="creatingPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138146" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingPOMObject -->
+        <test-method is-config="true" signature="openAdminPage()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="openAdminPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138163" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPage -->
+        <test-method signature="toVerifyDeleteFunctionalityOnAdminPage_12002()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="toVerifyDeleteFunctionalityOnAdminPage_12002" finished-at="2023-10-06T20:58:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyDeleteFunctionalityOnAdminPage_12002 -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138170" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openAdminPage()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="openAdminPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138171" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPage -->
+        <test-method signature="toVerifyDeleteFunctionalityOnAdminPage_12003()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="toVerifyDeleteFunctionalityOnAdminPage_12003" finished-at="2023-10-06T20:58:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyDeleteFunctionalityOnAdminPage_12003 -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138177" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method signature="toVerifySearchOnAdminPage_1101()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="toVerifySearchOnAdminPage_1101" finished-at="2023-10-06T20:58:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifySearchOnAdminPage_1101 -->
+        <test-method is-config="true" signature="openAdminPage()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="openAdminPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138179" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138181" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138183" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:tests.VerifyAdminPage@52e6fdee]" started-at="2023-10-06T20:58:58 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606138184" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- tests.VerifyAdminPage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-10-06T20:58:58 IST" name="FirefoxTest" finished-at="2023-10-06T20:59:01 IST" duration-ms="3271">
+      <class name="tests.VerifyAdminPage">
+        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:58:58 IST" name="lauchBrowser" finished-at="2023-10-06T20:59:01 IST" duration-ms="3249" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method is-config="true" signature="creatingPOMObject()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="creatingPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141480" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingPOMObject -->
+        <test-method is-config="true" signature="openAdminPage()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="openAdminPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141481" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPage -->
+        <test-method signature="toVerifyDeleteFunctionalityOnAdminPage_12002()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="toVerifyDeleteFunctionalityOnAdminPage_12002" finished-at="2023-10-06T20:59:01 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyDeleteFunctionalityOnAdminPage_12002 -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141486" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openAdminPage()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="openAdminPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141488" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPage -->
+        <test-method signature="toVerifyDeleteFunctionalityOnAdminPage_12003()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="toVerifyDeleteFunctionalityOnAdminPage_12003" finished-at="2023-10-06T20:59:01 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyDeleteFunctionalityOnAdminPage_12003 -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141490" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="openAdminPage()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="openAdminPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141491" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPage -->
+        <test-method signature="toVerifySearchOnAdminPage_1101()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="toVerifySearchOnAdminPage_1101" finished-at="2023-10-06T20:59:01 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+at tests.VerifyAdminPage.lauchBrowser(VerifyAdminPage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifySearchOnAdminPage_1101 -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141495" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141496" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:tests.VerifyAdminPage@8f4ea7c]" started-at="2023-10-06T20:59:01 IST" name="closeBrower" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1696606141497" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- tests.VerifyAdminPage -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite123456 -->
+</testng-results>
