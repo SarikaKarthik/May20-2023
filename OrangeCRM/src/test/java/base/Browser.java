@@ -27,4 +27,10 @@ public class Browser {
 		WebDriver driver  = new EdgeDriver();	
 		return driver ;
 	}
+
+	public static WebDriver launchSafari() {
+		System.setProperty("webdriver.safari.driver", "src\\test\\resources\\BrowserFiles\\safari.exe");
+		WebDriver driver  = new SafariDriver();	
+		return driver ;
+	}
 }
