@@ -31,19 +31,11 @@ public class TestClass1 {
 	public void beforeTest() {
 		System.out.println("Before Test TestClass");
 	}
-	
-	
-//Prod - https://web.whatsapp.com/
-// SIT - https://web.local-whatsapp.com/
-//	DIT - https://web.dev-whatsapp.com/
-//	UAT - https://web.preprod-whatsapp.com/
-// RT - https://web.loliop-whatsapp.com/
-// RT - https://web.stobery-whatsapp.com/
-		
-		
+			
 	@BeforeClass
 	public void beforeClass () {
 		System.out.println("Before Class TestClass");
+		System.out.println("Before Class TestClass123");
 	}
 	
 	@BeforeMethod
