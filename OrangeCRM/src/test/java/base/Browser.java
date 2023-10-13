@@ -11,14 +11,15 @@ public class Browser {
 	public static WebDriver launchChrome() {
 		
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remote-allow-origins=*");
-		WebDriver driver = new ChromeDriver(options);
+		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\BrowserFiles\\chromeriver.exe");
+		WebDriver driver = new ChromeDriver();
 		return driver ;
 	}
 	
 	public static WebDriver launchFirefox() {
 
-		System.setProperty("webdriver.gecko1234.driver", "src\\test\\resources\\BrowserFiles\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\BrowserFiles\\geckodriver.exe");
+
 		WebDriver driver  = new FirefoxDriver();
 		
 
