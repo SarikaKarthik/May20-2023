@@ -27,10 +27,6 @@ import org.testng.annotations.Test;
 			System.out.println("Before Suite TestClass222");
 		}
 		
-		@BeforeTest
-		public void beforeTest() {
-			System.out.println("Before Test TestClass222");
-		}
 		@BeforeClass
 		public void beforeClass () {
 			System.out.println("Before Class TestClass222");
@@ -44,6 +40,12 @@ import org.testng.annotations.Test;
 		@Test (groups = {"High Priority", "Sanity"})
 		public void test1() {
 			System.out.println("Test A TestClass222");
+				
+		}
+
+		@Test (groups = {"High Priority", "Sanity"})
+		public void test12344() {
+			System.out.println("Test A TestClass343545");
 				
 		}
 		
