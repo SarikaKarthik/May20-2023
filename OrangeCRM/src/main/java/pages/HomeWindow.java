@@ -28,7 +28,7 @@ public class HomeWindow {
 	}
 	
 	public void clickOnAdminButton() {
-		adminButton.click();
+		adminButton.click();            //perform();
 	}
 	
 	public void clickOnPIMButton() {
