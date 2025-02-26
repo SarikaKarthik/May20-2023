@@ -83,6 +83,7 @@ public class TestClass1 {
 	@AfterSuite
 	public void afterSuite() {
 		System.out.println("After Suite TestClass");
+		System.out.println("After Suite TestClass1");
 	}
 
 }
